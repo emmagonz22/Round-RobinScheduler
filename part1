@@ -1,0 +1,25 @@
+//Emmanuel J. Gonzalez Morales -- part1.txt 
+
+Q: What can you observe from the printouts of the
+threads on the terminal?
+
+Program is created with a number of Threads decided by us, after they are created, 
+The Main program run and finish, after that the Threads are running in circle a number of iteration,
+This Threads as they run as in a circle they will finished once they finished their task and will
+continue to the next thread to continue task. 
+
+Main appears to finished first than all the Threads because they run in parallel and Latency might happen between the prints
+
+//Terminal output
+C:\Users\19393\eclipse-workspace\project01-emmagonz22\build\classes\java\main>java prj_01/RRSched
+uler -p 4 -t 2 -s 1
+Starting Program...
+Creating Thread 1
+Creating Thread 2
+Creating Thread 3
+Creating Thread 4
+Main Finished ... Bye Bye
+Running Thread... This is Thread 0
+Running Thread... This is Thread 2
+Running Thread... This is Thread 1
+Running Thread... This is Thread 3
